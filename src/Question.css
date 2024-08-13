@@ -1,0 +1,17 @@
+/* https://www.figma.com/design/2sER0Xn3tRvKDyNySdqE4e/Quizzical-App-(Copy)?node-id=0-1&t=aR0ByNOY5KyfXRwR-0 */
+
+.Question {
+    text-align: center
+}
+
+.ListItem {
+    list-style: none;
+    margin: 0 1em;
+    display: inline-block;
+}
+/* top right border blob
+30% 70% 0% 100% / 0% 0% 100% 100% 
+background-color: #FFFAD1
+
+bottom left border ::-webkit-validation-bubble-text-block 0% 100% 0% 100% / 100% 91% 9% 0%  */
+/* background-color: #DEEBF8; */

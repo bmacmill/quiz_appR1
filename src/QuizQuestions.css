@@ -1,0 +1,11 @@
+.Question > ul > li.green{
+    background-color: green; 
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: #94D7A2; 
+}

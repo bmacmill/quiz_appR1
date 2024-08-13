@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: "Karla", sans-serif; 
+  position: relative;
+  background-color: #F5F7FB;
+  height: 100vh;
+}
+
+div {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.QuizBoard {
+  margin: 2em auto;
+  max-width: 550px;
+}
+
+.Question {
+  background-color: #F5F7FB;
+  background-color: transparent;
+    
+}
+
+.Question > ul {
+  padding-top: 2em;
+}
+
+.Score-area {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.Score-text {
+  color: #293264;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+ul{
+  border-bottom: 0.7px solid #293264;
+  padding-bottom: 1em;
+}
+
+

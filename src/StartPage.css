@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    position: relative;
+    background-color: #F5F7FB;
+    height: 100vh;
+}
+
+.StartPage_Info {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  justify-content: center;
+}
+.StartPage h1{
+    font-weight: 700;
+    text-align: center;
+    color: #4D5B9E;
+    font-size: 2rem;
+  }
+
+.StartPage p {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: #4D5B9E;
+  }
+  
+  button{
+    background-color: #4D5B9E;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 1em 3em;
+    font-family: "Inter", sans-serif;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .StartPage{
+    color: #293264;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .TopBlob{
+    height: 200px;
+    width: 200px;
+    border-radius: 30% 70% 0% 100% / 0% 0% 100% 100%;
+    background-color: #FFFAD1;
+    /* margin-left: auto; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    
+  }
+  
+  .BottomBlob{
+    height: 200px;
+    width: 200px;
+    border-radius: 0% 100% 0% 100% / 100% 91% 9% 0%;
+    background-color: #DEEBF8; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .StartPage h1, .StartPage p{
+    padding-bottom: 0.5em;
+  }
+  
+  .StartPage button {
+    margin-top: 0.75em;
+  }
+
+/* borrowed from tenzies */
+  .StartPage button:active{
+        box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+  }
