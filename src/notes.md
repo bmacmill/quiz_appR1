@@ -1,3 +1,6 @@
+note: this has totally confounded me. i pushed to git hub. there are tons of back up components and pages and 
+copies of pages that I didn't delete. the main pages (StartPage, QuizQuestions and App) are all named as such.
+
 1. start page, not sure if blobs are correct. used a youtube video from scrimba's kevin powell, they're more rounded than "blobs"
 
 2. quiz is loading in background, when click on start, quiz page loads again. i had to set a timeout of 6 seconds as I kept getting a too many requests error.
